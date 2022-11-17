@@ -1,0 +1,101 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFAE7;
+    margin: 0;
+}
+
+.top-bar{
+    background-color: #FFDE00;
+    height: 70px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid ;
+    border-color: #EFEFEF;
+    border-radius: 0 0 5px 5px;
+}
+
+.logo{
+    width: 45px;
+    padding-right: 15px;
+}
+
+.logo-name{
+    display: flex;
+    align-items: center;
+    padding: 14px;
+}
+
+.heading{
+    font-weight: 800;
+    font-size: 15px;
+}
+
+/* News Division Start Here */
+
+.singer-img{
+    width: 230px;
+    height: 230px;
+}
+
+.newsrow1, .newsrow2{
+    background-color: #FFDE00;
+    width: 500px;
+    height: 230px;
+    margin-top: 50px;
+    margin-right: 20px;
+    display: flex;
+    border-radius: 117px 5px 5px 117px;
+    border: 1px solid;
+    border-color: #FFDE00;  
+}
+
+.container{
+    padding-top: 100px;
+    display: flex;
+}
+
+
+li{
+    margin-bottom: 12px;
+    padding-top: 9px;
+}
+
+li:hover{
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.headline{
+    margin-left: 60px;
+}
+
+.newbrif1{
+    margin-inline-start: 15px;
+}
+
+.newbrif3{
+    margin-inline-start: 15px;
+}
+
+.moredetail{
+    margin-left: 95px;
+}
+
+.footer{
+    background-color: #EFEFEF;
+    height: 7vh;
+
+    justify-content: center;
+
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    width: 100%;
+
+    border-radius: 3px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif'
+
+}
